@@ -1,0 +1,11 @@
+{
+  "root": "build/",
+  "routes": {
+    "/**": "index.html"
+  },
+  "proxies": {
+    "/api": {
+      "origin": "https://arcane-sea-68404.herokuapp.com/api"
+    }
+  }
+}
